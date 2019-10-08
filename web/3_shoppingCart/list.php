@@ -13,7 +13,7 @@
     );
 
     foreach ($list as $item => $img) {
-        echo "<button class='item' type='submit' name='item' value='" . $item . "'>";
+        echo "<button class='item' style='border-radius: 25px;' type='submit' name='item' value='" . $item . "'>";
         echo "<div class='confirm' id='" . $item . "'>" . ($_SESSION["cart"][$item] ? "Remove" : "Add") . "</div> <br>";
         echo "<img src='". $img ."' height=400px>";
       	echo "<div class='name'>" . $item . "</div>";
