@@ -21,16 +21,16 @@
     <br> 
     <div class = container>
         <?php
-            echo "Your chosen poster(s): <br> <ul>";
+            echo $_POST["first"] . " " . $_POST["last"] . ", Your following poster(s) have been sent: <br> <ul>";
+            
             foreach ($_SESSION["cart"] as $item => $val) {
-                echo "<div id='" . $item . "' style='text-align:left; margin-left: 360px;' > <li>" . $item . "</li></div> <br>";
+                echo "<div id='" . $item . "' style='text-align:left; margin-left: 360px;' > <li>" . $item . "</li></div></br>";
             } 
-            echo "</ul";
+            echo "</ul>";
 
             foreach ($_SESSION["items"] as $key => $value) {
                 unset($_SESSION["items"][$key]);
             }
-            echo $_POST["first"] . " " . $_POST["last"] . ", Your following poster(s) have been sent.<br>";
         ?>
 
     </div>
