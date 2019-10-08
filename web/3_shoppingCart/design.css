@@ -14,7 +14,7 @@ div {
     text-align: center;
 }
 
-/* .container{
+/* form{
     align-content: center;
     margin: 100px auto;
     padding-top: 80px;
@@ -23,7 +23,7 @@ div {
     box-shadow: 10px 10px 50px grey;
 } */
 
-form {
+.container {
     align-content: center;
     margin: 100px auto;
     padding-top: 20px;
