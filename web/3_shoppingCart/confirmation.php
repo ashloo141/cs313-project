@@ -23,7 +23,7 @@
         <?php
 
             foreach ($_SESSION["cart"] as $item => $val) {
-                echo "<div id='" . $item . "' style='text-align:left; margin-left: 300px;' >" . $item . "</div> <br>";
+                echo "<div id='" . $item . "' style='text-align:left; margin-left: 360px;' >" . $item . "</div> <br>";
             }
 
             foreach ($_SESSION["items"] as $key => $value) {
