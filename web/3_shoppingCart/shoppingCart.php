@@ -18,14 +18,13 @@
     
     <br> 
     <div class = container>
-        <form action = "shoppingCart.php" method=POST>
+        <form action = "shoppingCart.php" method=POST onsubmit="event.preventDefault()">
             <?php require 'list.php'?>
             <br>
+            <a href="viewCart.php"> <button> View Cart </button> </a>
+            <br> <br>
         </form>
 
-        <a href="viewCart.php"> <button> View Cart </button> </a>
-        <br>
-        <br>
     </div>
     
 </body>
