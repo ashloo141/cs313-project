@@ -25,9 +25,9 @@
                 unset($_SESSION["items"][$key]);
             }
             echo $_POST["first"] . " " . $_POST["last"] . ", Your poster has been sent.<br>";
-            echo "Poster on it's way to " . $_POST["city"] . ", " . $_POST["state"] . "!";
+            echo "Poster on it's way to " . $_POST["city"] . ", " . $_POST["state"] . "! <br> <br>";
         ?>
     </div>
-    
+    <?php session_destroy(); ?>
 </body>
 </html>
