@@ -19,6 +19,9 @@
     
     <br> 
     <div class = container>
+
+    <?php echo "Items in Cart: " . count($_SESSION["cart"]) . "<br><br>"; ?>
+
     <form action = "confirmation.php" method=POST>
         
         First name:

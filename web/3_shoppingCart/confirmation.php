@@ -21,14 +21,20 @@
     <br> 
     <div class = container>
         <?php
+
+            foreach ($_SESSION["cart"] as $item => $val) {
+                echo "<div id='" . $item . "' style='text-align:left; margin-left: 300px;' >" . $item . ": $10.00 </div> <br>";
+            }
+
             foreach ($_SESSION["items"] as $key => $value) {
                 unset($_SESSION["items"][$key]);
             }
-            echo $_POST["first"] . " " . $_POST["last"] . ", Your poster has been sent.<br>";
+            echo $_POST["first"] . " " . $_POST["last"] . ", Your following poster(s) have been sent.<br>";
             echo "Poster on it's way to " . $_POST["city"] . ", " . $_POST["state"] . "! <br> <br>";
         ?>
+
     </div>
-    
+
     <?php session_destroy(); ?>
 </body>
 </html>
