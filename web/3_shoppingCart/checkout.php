@@ -23,49 +23,49 @@
         
         First name:
         <br>
-        <input type = "text" id = "first" value = "">
+        <input type = "text" name = "first" value = "">
         <br>
         
         Last name:
         <br>
-        <input type = "text" id = "last" value = "">
+        <input type = "text" name = "last" value = "">
         <br>
         
         Phone Number:
         <br>
-        <input type = "text" id = "phone" value = "">
+        <input type = "text" name = "phone" value = "">
         <br>
         <br>
         <br>
         
         Address Line 1:
         <br>
-        <input type = "text" id = "address" value = "">
+        <input type = "text" name = "address" value = "">
         
         <br>
         Address Line 2:
         <br>
-        <input type = "text" id = "address" value = "">
+        <input type = "text" name = "address1" value = "">
         
         <br>
         City:
         <br>
-        <input type = "text" id = "city" value = "">
+        <input type = "text" name = "city" value = "">
         
         <br>
         Zip Code:
         <br>
-        <input type = "text" id = "zipcode" value = "">
+        <input type = "text" name = "zipcode" value = "">
         
         <br>
         State:
         <br>
-        <input type = "text" id = "state" value = "">
+        <input type = "text" name = "state" value = "">
         
         <br>
         Country:
         <br>
-        <input type = "text" id = "country" value = "">
+        <input type = "text" name = "country" value = "">
         <br> <br>
         
         

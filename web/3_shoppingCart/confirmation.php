@@ -24,7 +24,7 @@
             foreach ($_SESSION["items"] as $key => $value) {
                 unset($_SESSION["items"][$key]);
             }
-            echo $_POST["first"] . $_POST["last"] . ", your poster has been sent to <br>";
+            echo $_POST["first"] . $_POST["last"] . ", Your poster has been sent.<br>";
             echo $_POST["city"] . ", " . $_POST["state"];
         ?>
     </div>
