@@ -21,7 +21,7 @@
     <br> 
     <div class = container>
         <?php
-
+            echo "Your chosen poster(s): <br>"
             foreach ($_SESSION["cart"] as $item => $val) {
                 echo "<div id='" . $item . "' style='text-align:left; margin-left: 360px;' >" . $item . "</div> <br>";
             }
