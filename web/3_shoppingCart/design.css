@@ -14,16 +14,16 @@ div {
     text-align: left;
 }
 
-.container{
+/* .container{
     align-content: center;
     margin: 100px auto;
     padding-top: 80px;
     height: 500px;
     border-radius: 25px;
     box-shadow: 10px 10px 50px grey;
-}
+} */
 
-/* form {
+form {
     align-content: center;
     margin: 100px auto;
     padding-top: 20px;
@@ -31,4 +31,4 @@ div {
     height: 900px;
     background-color: azure;
     border-radius: 25px;
-} */
+}
