@@ -20,9 +20,12 @@
     <div class = container>
         <form action = "shoppingCart.php" method=POST>
             <?php require 'list.php'?>
+            <br>
         </form>
 
         <a href="viewCart.php"> <button> View Cart </button> </a>
+        <br>
+        <br>
     </div>
     
 </body>
