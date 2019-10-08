@@ -18,7 +18,7 @@
     
     <br> 
     <div class = container>
-        <form action = "shoppingCart.php" method=POST onsubmit="event.preventDefault()">
+        <form action = "shoppingCart.php" method=POST>
             <?php require 'list.php'?>
             <br> <br>
         </form>
