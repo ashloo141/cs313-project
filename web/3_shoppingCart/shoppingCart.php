@@ -1,3 +1,4 @@
+<?php require 'session.php'?>
 <!DOCTYPE html>
 <html lang="en">   
 
@@ -11,40 +12,18 @@
 <body>
 
     <header>
-        <h1 style = "margin-top: 100px"> Welcome to PosterVille </h1>
-        <p> Where you can buy all kinds of posters. </p>
+        <h1> Welcome to PosterVille </h1>
+        <p> Where you can buy all kinds of posters for ONLY $10 each. </p>
     </header>
     
-    <form action = "shoppingcart.php" onload="">
-                
-        <div>
-            Disney's Beauty and the Beast= $15.00
-            <input type = "checkbox" id = "b&b" onclick="check(this)">
-            <br>
+    <br> 
+    <div class = container>
+        <form action = "shoppingcart.php" method=POST>
+            <?php require 'list.php'?>
+        </form>
 
-            Marvel's Iron Man = $20.00
-            <input type = "checkbox" id = "iron" onclick="check(this)">
-            <br>
-
-            Pokemon's Pikachu  = $20.00
-            <input type = "checkbox" id = "pika" onclick="check(this)">
-            <br>
-
-            <?php
-                
-                $('#b&b :checkbox').click(function() {
-                    var $this = $(this);
-                    // $this will contain a reference to the checkbox   
-                    if ($this.is(':checked')) {
-                        // checkbox was checked 
-                    } else {
-                        // checkbox was unchecked
-                    }
-                });
-            ?>
-        </div>
-        
-    </form>
+        <a href="viewCart.php"> <button> View Cart </button> </a>
+    </div>
+    
 </body>
-
 </html>
