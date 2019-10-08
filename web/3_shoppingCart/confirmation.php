@@ -21,7 +21,7 @@
     <br> 
     <div class = container>
         <?php
-            echo $_POST["first"] . " " . $_POST["last"] . ", Your following poster(s) have been sent: <br> <ul>";
+            echo $_POST["first"] . " " . $_POST["last"] . ", your following poster(s) have been sent: <br> <ul>";
             
             foreach ($_SESSION["cart"] as $item => $val) {
                 echo "<div id='" . $item . "' style='text-align:left; margin-left: 360px;' > <li>" . $item . "</li></div></br>";
@@ -31,6 +31,8 @@
             foreach ($_SESSION["items"] as $key => $value) {
                 unset($_SESSION["items"][$key]);
             }
+
+            echo "Congratulations! They !will arive in 7-10 business days.";
         ?>
 
     </div>
