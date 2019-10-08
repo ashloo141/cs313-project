@@ -32,11 +32,12 @@
                 unset($_SESSION["items"][$key]);
             }
 
-            echo "Congratulations! They !will arive in 7-10 business days.";
+            echo "Congratulations! Arrival time is 7-10 business days.";
         ?>
-
     </div>
 
-    <?php session_destroy(); ?>
+    <?php session_destroy(); 
+        echo "* Fine Print: This is a fake website. Do not expect to receive any posters. *";?>
+
 </body>
 </html>
