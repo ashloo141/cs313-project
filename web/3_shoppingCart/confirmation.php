@@ -21,7 +21,7 @@
     <br> 
     <div class = container>
         <?php
-            echo "Your chosen poster(s): <br>"
+            echo "Your chosen poster(s): <br>";
             foreach ($_SESSION["cart"] as $item => $val) {
                 echo "<div id='" . $item . "' style='text-align:left; margin-left: 360px;' >" . $item . "</div> <br>";
             }
@@ -30,7 +30,6 @@
                 unset($_SESSION["items"][$key]);
             }
             echo $_POST["first"] . " " . $_POST["last"] . ", Your following poster(s) have been sent.<br>";
-            //echo "Poster on it's way to " . $_POST["city"] . ", " . $_POST["state"] . "! <br> <br>";
         ?>
 
     </div>
