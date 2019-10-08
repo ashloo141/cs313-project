@@ -18,7 +18,7 @@
     
     <br> 
     <div class = container>
-        <form action = "shoppingcart.php" method=POST>
+        <form action = "shoppingCart.php" method=POST>
             <?php require 'list.php'?>
         </form>
 

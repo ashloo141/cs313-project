@@ -15,7 +15,7 @@
         <h1> PosterVille: Viewing Cart.</h1>
         <p> 
             Not done? Keep Browsing. 
-            <a href="shoppingcart.php"> 
+            <a href="shoppingCart.php"> 
                 <button> Back </button> 
             </a> 
         </p>

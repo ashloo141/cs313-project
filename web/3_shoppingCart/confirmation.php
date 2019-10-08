@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <h1><a href="shoppingcart.php">  PosterVille: Confirmation. </h1> </a>
+        <h1><a href="shoppingCart.php">  PosterVille: Confirmation. </h1> </a>
         <p> Not done? 
             <a href="viewCart.php"> <button> Back to Cart </button> </a> 
         </p>
