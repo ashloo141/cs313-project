@@ -23,7 +23,7 @@
     
     <br> 
     <div class = container>
-        <form action = "checkout.php" method=POST>
+        <form action = "checkout.php" style="text-align:left;" method=POST>
             <?php require 'clist.php'?>
             <button type = "submit" value = "Submit" > Check out </button>
         </form>
