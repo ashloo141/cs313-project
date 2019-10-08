@@ -28,6 +28,7 @@
             echo "Poster on it's way to " . $_POST["city"] . ", " . $_POST["state"] . "! <br> <br>";
         ?>
     </div>
+    
     <?php session_destroy(); ?>
 </body>
 </html>
