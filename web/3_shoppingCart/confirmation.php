@@ -30,7 +30,7 @@
                 unset($_SESSION["items"][$key]);
             }
             echo $_POST["first"] . " " . $_POST["last"] . ", Your following poster(s) have been sent.<br>";
-            echo "Poster on it's way to " . $_POST["city"] . ", " . $_POST["state"] . "! <br> <br>";
+            //echo "Poster on it's way to " . $_POST["city"] . ", " . $_POST["state"] . "! <br> <br>";
         ?>
 
     </div>
