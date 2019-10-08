@@ -14,7 +14,7 @@
     <header>
         <h1><a href="shoppingCart.php">  PosterVille: Confirmation. </h1> </a>
         <p> Not done? 
-            <a href="viewCart.php"> <button> Back to Cart </button> </a> 
+            <a href="shoppingCart.php"> <button> Back to Browsing </button> </a> 
         </p>
     </header>
     
