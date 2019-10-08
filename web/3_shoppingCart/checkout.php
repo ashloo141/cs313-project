@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1><a href="shoppingCart.php">  PosterVille: Check out.</a> </h1> 
+        <h1> PosterVille: Check out. </h1> 
         <p> Not done? 
             <a href="viewCart.php"> <button> Back to Cart </button> </a> 
         </p>
