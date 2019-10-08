@@ -3,12 +3,12 @@
 
     if (!$_SESSION["cart"]) { $_SESSION['cart'] = array();}
 
-    
-    if (!$_SESSION["items"][$_POST["item"]]) {
-        $_SESSION["items"][$_POST["item"]] = true;
+
+    if (!$_SESSION["cart"][$_POST["item"]]) {
+        $_SESSION["cart"][$_POST["item"]] = true;
     }
     else {
-        unset($_SESSION["items"][$_POST["item"]]);
+        unset($_SESSION["cart"][$_POST["item"]]);
     }
 
     foreach ($_SESSION["cart"] as $key => $val) {
