@@ -4,7 +4,7 @@
     echo "Items in Cart: " . count($_SESSION["cart"]) . "<br><br>";
 
     foreach ($_SESSION["cart"] as $item => $val) {
-        echo "<div id='" . $item . "' style='text-align:left; align-content: center;' > <button type='submit'> Remove </button> " . $item . ": $10.00 </div> <br>";
+        echo "<div id='" . $item . "' style='text-align:left; margin-left: 120px;' > <button type='submit'> Remove </button> " . $item . ": $10.00 </div> <br>";
         $total += 10;
     }
 
