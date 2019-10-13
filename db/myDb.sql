@@ -5,7 +5,7 @@ CREATE TABLE users
 ,   first_name      VARCHAR(20)     NOT NULL
 ,   last_name       VARCHAR(20)     NOT NULL
 ,   user_type       VARCHAR(20)     NOT NULL
-,   username       VARCHAR(20)     NOT NULL
+,   username        VARCHAR(20)     NOT NULL
 ,   passwrd         VARCHAR(30)     NOT NULL
 ,   created_date    TIMESTAMP       DEFAULT now()
 );
@@ -22,10 +22,5 @@ CREATE TABLE orders
 ,   created_date    TIMESTAMP       DEFAULT now()
 );
 
-INSERT INTO users
-(   first_name  
-,   last_name   
-,   user_type   
-,   username   
-,   passwrd) 
+INSERT INTO users (first_name, last_name, user_type, username, passwrd) 
 VALUES ( 'John', 'Doe', 1, 'jdoe', 'shh');
