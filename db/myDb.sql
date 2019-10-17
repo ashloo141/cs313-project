@@ -5,14 +5,15 @@ CREATE TABLE users
 ,   first_name      VARCHAR(20)     NOT NULL
 ,   last_name       VARCHAR(20)     NOT NULL
 ,   user_type       VARCHAR(20)     NOT NULL
-,   username        VARCHAR(20)     NOT NULL
-,   passwrd         VARCHAR(30)     NOT NULL
+,   username        VARCHAR(20)     
+,   passwrd         VARCHAR(30)     
 ,   created_date    TIMESTAMP       DEFAULT now()
 );
 
 CREATE TABLE food_items
 (   food_item_id    SERIAL          PRIMARY KEY
 ,   item_name       VARCHAR(20)     NOT NULL
+,   item_price      VARCHAR(20)     NOT NULL
 );
 
 CREATE TABLE orders
