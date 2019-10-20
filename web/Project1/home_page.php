@@ -1,4 +1,4 @@
-<!-- <?php require '../../db/db-connect.php'; ?> -->
+<?php require '../../db/db-connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en">   
 
@@ -28,6 +28,7 @@
                 echo "<br/>";
                 echo "<br/>";
             }
+        ?>
         </form>
         
         <a href="login.php"> <button> Checkout as User </button> </a>
