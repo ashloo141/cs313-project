@@ -1,3 +1,5 @@
+-- heroku psql
+
 DROP TABLE IF EXISTS users, food_items, orders;
 
 CREATE TABLE users
