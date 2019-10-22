@@ -1,5 +1,7 @@
 -- heroku psql
-
+-- \i db/myDb.sql
+-- \i db/food_menu.sql
+-- \q (exit)
 DROP TABLE IF EXISTS users, food_items, orders;
 
 CREATE TABLE users
@@ -14,8 +16,9 @@ CREATE TABLE users
 
 CREATE TABLE food_items
 (   food_item_id    SERIAL          PRIMARY KEY
-,   item_name       VARCHAR(20)     NOT NULL
+,   item_name       VARCHAR(40)     NOT NULL
 ,   item_price      VARCHAR(20)     NOT NULL
+,   item_info       VARCHAR(100)    NOT NULL
 );
 
 CREATE TABLE orders
