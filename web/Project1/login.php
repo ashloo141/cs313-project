@@ -17,7 +17,27 @@
     </header>
     
     <p> Don't have an account? <a href="register.php"> Create Account </a> </p>
-    
+
+    <form action = "result.php" method=POST>
+        
+        Username:
+        <br>
+        <input type = "text" name = "user" value = "">
+        <br>
+        
+        Password:
+        <br>
+        <input type = "text" name = "pswd" value = "">
+        <br>
+
+        <br>
+        <button type = "submit" value = "submit" >Sign in </button>
+        <br>
+        
+        <br>
+        
+    </form>
+
 </body>
 </html>
 
