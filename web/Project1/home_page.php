@@ -20,12 +20,12 @@
     <div class = container>
         <form action = "home_page.php" method=POST>
         <?php 
-            foreach ($db->query('SELECT item_name, item_price, itam_info FROM food_items;') as $row) {
+            foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items;') as $row) {
                 $food = $row['item_name'];
                 $info = $row['item_info'];
                 $price = $row['item_price'];
 
-                echo '<b>$food</b>: $ ' . $price . ' - ' . $info;
+                echo "<b>$food</b>: $ $price - $info";
                 echo "<br/>";
                 echo "<br/>";
             }
