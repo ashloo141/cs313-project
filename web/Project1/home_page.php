@@ -11,8 +11,9 @@
 
 <body>
     <header>
-        <h1> Toasties </h1>
-        <p> Don't be stressed, get pressed. </p>
+        <h1> Smith's Toasties</h1>
+        <p> Fresh. Fast. Freaking Good. </p>
+        <p> IBC </p>
     </header>
     
     <br> 
