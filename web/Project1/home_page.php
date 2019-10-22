@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <header>
         <h1> Toasties </h1>
         <p> Don't be stressed, get pressed. </p>
