@@ -21,7 +21,7 @@
             <h3> Menu </h3>
             <form action = "home_page.php" method=POST>
             <?php 
-                foreach ($db->query('SELECT item_name, ROUND(item_price,2), item_info FROM food_items;') as $row) {
+                foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items;') as $row) {
                     $food = $row['item_name'];
                     $info = $row['item_info'];
                     $price = $row['item_price'];
