@@ -18,6 +18,7 @@
 
         <br> 
         <div class = container>
+            <h4> Menu </h4>
             <form action = "home_page.php" method=POST>
             <?php 
                 foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items;') as $row) {
