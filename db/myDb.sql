@@ -17,7 +17,7 @@ CREATE TABLE users
 CREATE TABLE food_items
 (   food_item_id    SERIAL          PRIMARY KEY
 ,   item_name       VARCHAR(40)     NOT NULL
-,   item_price      VARCHAR(20)     NOT NULL
+,   item_price      FLOAT           NOT NULL
 ,   item_info       VARCHAR(100)    NOT NULL
 );
 
