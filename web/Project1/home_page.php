@@ -25,7 +25,7 @@
                 $info = $row['item_info'];
                 $price = $row['item_price'];
 
-                echo "<b>$food</b>: $ "; // . $price . " - " . $info;
+                echo '<b>$food</b>: $ ' . $price . ' - ' . $info;
                 echo "<br/>";
                 echo "<br/>";
             }
