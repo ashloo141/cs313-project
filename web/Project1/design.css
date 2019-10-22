@@ -14,14 +14,9 @@ div {
     text-align: center;
 }
 
-/* form{
-    align-content: center;
-    margin: 100px auto;
-    padding-top: 80px;
-    height: 500px;
-    border-radius: 25px;
-    box-shadow: 10px 10px 50px grey;
-} */
+form{
+    align-content: left;
+}
 
 .container {
     align-content: center;
