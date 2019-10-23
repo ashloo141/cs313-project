@@ -1,6 +1,7 @@
 body {
     font-family: "Comic Sans MS";
-    text-align: center;
+    text-align: left;
+    align-content: center;
     vertical-align: middle;
 }
 
