@@ -18,7 +18,7 @@
     
     <p> Already have an account? <a href="account.php"> Sign in </a> </p>
     
-    <form action = "checkout.php" method=POST>
+    <form action = "checkout.php" class=container method=POST>
         
         First name:
         <br>

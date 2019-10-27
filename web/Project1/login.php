@@ -18,7 +18,7 @@
     
     <p> Don't have an account? <a href="register.php"> Create Account </a> </p>
 
-    <form action = "result.php" method=POST>
+    <form action = "result.php" class=container method=POST>
         
         Username:
         <br>
