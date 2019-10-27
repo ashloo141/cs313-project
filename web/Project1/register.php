@@ -16,7 +16,7 @@
         <p> IBC </p>
     </header>
     
-    <p> Already have an account? <a href="login.php"> Sign in </a> </p>
+    <p> Already have an account? <a href="account.php"> Sign in </a> </p>
     
     <form action = "checkout.php" method=POST>
         

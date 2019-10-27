@@ -9,6 +9,7 @@ CREATE TABLE users
 ,   first_name      VARCHAR(20)     NOT NULL
 ,   last_name       VARCHAR(20)     NOT NULL
 ,   user_type       VARCHAR(20)     NOT NULL
+,   phone_number    VARCHAR(10)     
 ,   username        VARCHAR(20)     
 ,   passwrd         VARCHAR(30)     
 ,   created_date    TIMESTAMP       DEFAULT now()
