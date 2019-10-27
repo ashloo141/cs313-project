@@ -16,7 +16,7 @@
             <p> IBC </p>
         </header>
 
-        <br> 
+        <br>
         <div class = container>
             <h3> Menu </h3>
             <form action = "home_page.php" method=POST>
