@@ -40,8 +40,9 @@
 
             echo "Account Created on $c_date";
         ?>
-
-        <button><a href='logout.php'>Logout</a></button>
+        <br/>
+        <a href='logout.php'><button>Logout</button></a>
+        <br/>
     </div>
 
 </body>
