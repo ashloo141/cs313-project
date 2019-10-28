@@ -19,6 +19,9 @@ div {
     margin-left: 80px;
 }
 
+form label {
+    text-align: left;
+}
 
 .container {
     align-content: center;
