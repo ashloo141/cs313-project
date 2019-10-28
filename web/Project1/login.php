@@ -19,15 +19,15 @@
         <p> Don't have an account? <a href="register.php"> Create Account </a> </p>
 
         <div class=container>
-            <form id='login' action='login.php' method='post' accept-charset='UTF-8'>
+            <form id='login' action='account.php' method='post' accept-charset='UTF-8'>
                 
-                <legend>Login</legend>
+                <legend>Login</legend> <br/>
                 <input type='hidden' name='submitted' id='submitted' value='1'/>
 
-                <label style="text-align: left;" for='username' >Username:</label> <br/>
+                <label for='username' >Username:</label> <br/>
                 <input type='text' name='username' id='username'  maxlength="20" />
                 <br/>
-                <label style="text-align: left;" for='password' >Password:</label> <br/>
+                <label for='password' >Password:</label> <br/>
                 <input type='password' name='password' id='password' maxlength="30" />
                 
                 <br/>
