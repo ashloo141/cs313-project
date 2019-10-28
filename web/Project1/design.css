@@ -19,6 +19,10 @@ form{
     align-content: center;
 }
 
+input{
+    text-align: left;
+}
+
 .container {
     align-content: center;
     margin: 100px auto;
