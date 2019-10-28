@@ -24,13 +24,13 @@
                 <legend>Login</legend>
                 <input type='hidden' name='submitted' id='submitted' value='1'/>
 
-                <label for='username' >UserName*:</label> <br/>
+                <label style="text-align: left;" for='username' >Username:</label> <br/>
                 <input type='text' name='username' id='username'  maxlength="20" />
                 <br/>
-                <label for='password' >Password*:</label> <br/>
+                <label style="text-align: left;" for='password' >Password:</label> <br/>
                 <input type='password' name='password' id='password' maxlength="30" />
                 
-
+                <br/>
                 <input type='submit' name='Submit' value='Sign in' />
                 
             </form>
