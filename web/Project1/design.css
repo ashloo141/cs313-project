@@ -14,10 +14,10 @@ div {
     text-align: center;
 }
 
-/* form{
-    text-align: center;
-    align-content: center;
-} */
+#menu{
+    text-align: left;
+    margin-left: 95px;
+}
 
 
 .container {

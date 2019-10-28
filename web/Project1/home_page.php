@@ -19,7 +19,7 @@
         <br>
         <div class = container>
             <h3> Menu </h3>
-            <form action = "home_page.php" method=POST>
+            <form action = "home_page.php" id="menu" method=POST>
             <?php 
                 foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items;') as $row) {
                     $food = $row['item_name'];
