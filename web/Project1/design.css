@@ -1,7 +1,6 @@
 body {
     font-family: "Comic Sans MS";
-    text-align: center;
-    vertical-align: middle;
+    vertical-align: center;
 }
 
 h1{
@@ -14,11 +13,11 @@ div {
     text-align: center;
 }
 
-form{
+/* form{
     text-align: left;
     vertical-align: center;
     margin-left: 90px;
-}
+} */
 
 .container {
     align-content: center;
