@@ -40,10 +40,9 @@
 
             echo "Account Created on $c_date";
         ?>
-    </div>
 
-    <?php session_destroy(); 
-        echo "* Fine Print: This is a fake website. Do not expect to receive any posters. *";?>
+        <button><a href='logout.php'>Logout</a></button>
+    </div>
 
 </body>
 </html>
