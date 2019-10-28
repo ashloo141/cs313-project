@@ -19,24 +19,23 @@
         <p> Don't have an account? <a href="register.php"> Create Account </a> </p>
 
         <div class=container>
-            <form action = "result.php" method=POST>
-                
-                Username:
-                <br>
-                <input type = "text" name = "user" value = "">
-                <br>
-                
-                Password:
-                <br>
-                <input type = "text" name = "pswd" value = "">
-                <br>
+            <form id='login' action='login.php' method='post' accept-charset='UTF-8'>
+                <fieldset>
+                <legend>Login</legend>
+                <input type='hidden' name='submitted' id='submitted' value='1'/>
 
-                <br>
-                <button type = "submit" value = "submit" >Sign in </button>
-                <br>
-                <br>
+                <label for='username' >UserName*:</label>
+                <input type='text' name='username' id='username'  maxlength="50" />
                 
+                <label for='password' >Password*:</label>
+                <input type='password' name='password' id='password' maxlength="50" />
+                
+
+                <input type='submit' name='Submit' value='Submit' />
+                
+                </fieldset>
             </form>
+
         </div>
     </body>
 </html>
