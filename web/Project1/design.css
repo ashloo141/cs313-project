@@ -14,17 +14,15 @@ div {
     text-align: center;
 }
 
-form{
+/* form{
     text-align: center;
     align-content: center;
-}
+} */
 
-input{
-    text-align: left;
-}
 
 .container {
     align-content: center;
+    text-align: center;
     margin: 100px auto;
     padding-top: 20px;
     width: 900px;
