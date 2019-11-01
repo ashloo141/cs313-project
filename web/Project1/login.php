@@ -19,7 +19,7 @@
         <p> Don't have an account? <a href="register.php"> Create Account </a> </p>
 
         <div class=container>
-            <form id='login' action='account.php' method='post' accept-charset='UTF-8'>
+            <form id='login' action='verify_login.php' method='POST' accept-charset='UTF-8'>
                 
                 <legend>Login</legend> <br/>
                 <input type='hidden' name='submitted' id='submitted' value='1'/>
@@ -34,7 +34,6 @@
                 <input type='submit' name='Submit' value='Sign in' />
                 
             </form>
-
         </div>
     </body>
 </html>

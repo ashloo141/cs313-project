@@ -1,4 +1,11 @@
-<?php require '../../db/db-connect.php'; ?>
+<?php require '../../db/db-connect.php';
+    if(!$fgmembersite->CheckLogin())
+    {
+        $fgmembersite->RedirectToURL("login.php");
+        exit;
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">   
 
