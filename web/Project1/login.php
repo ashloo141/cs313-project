@@ -11,9 +11,7 @@
 
     <body>
         <header>
-            <h1> Smith's Toasties</h1>
-            <p> Fresh. Fast. Freaking Good. </p>
-            <p> IBC </p>
+            <h1> <a class =inv_link href= "home_page.php"><img src="pics/logo.png" width="400px" alt="logo"> </a> </h1>
         </header>
         
         <p> Don't have an account? <a href="register.php"> Create Account </a> </p>

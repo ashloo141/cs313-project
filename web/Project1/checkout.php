@@ -11,7 +11,8 @@
 
 <body>
     <header>
-        <h1> Toasties: Check out. </h1> 
+        <h1> <a class =inv_link href= "home_page.php"><img src="pics/logo.png" width="400px" alt="logo"> </a> </h1>
+        <h1> Check out. </h1> 
         <p> Not done? 
             <a href="home_page.php"> <button> Back to Cart </button> </a> 
         </p>
