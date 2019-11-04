@@ -42,62 +42,6 @@
         <br>
         <br>
         
-        Address Line 1:
-        <br>
-        <input type = "text" name = "address" value = "">
-        
-        <br>
-        Address Line 2:
-        <br>
-        <input type = "text" name = "address1" value = "">
-        
-        <br>
-        City:
-        <br>
-        <input type = "text" name = "city" value = "">
-        
-        <br>
-        Zip Code:
-        <br>
-        <input type = "text" name = "zipcode" value = "">
-        
-        <br>
-        State:
-        <br>
-        <input type = "text" name = "state" value = "">
-        
-        <br>
-        Country:
-        <br>
-        <input type = "text" name = "country" value = "">
-        <br> <br>
-        
-        
-        <br>
-        Credit Card Type:
-        <br>
-        
-        <div>
-            <input type = "radio" id = "visa">
-            Visa
-            <br>
-
-            <input type = "radio" id = "mastercard">
-            MasterCard
-            <br>
-
-            <input type = "radio" id = "amexpress">
-            American Express
-            <br>
-        </div>
-        
-        CC Number: 
-        <input type = "text" id = "ccn" placeholder = "xxxx xxxx xxxx xxxx" size="16" maxlength="20">
-        <br>
-        
-        CC Expiration: 
-        <input type = "text" id = "expm" placeholder = "mm" size="2" maxlength="2"> / 
-        <input type = "text" id = "expyr" placeholder = "yyyy" size="4" maxlength="4">
         
         <br>
         <button type = "submit" value = "Submit" > Next </button>
