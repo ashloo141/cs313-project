@@ -117,6 +117,7 @@
             <hr>
             <b> Open Times:</b>
             <p> <i> M-F except Tuesday:</i> 11am - 2pm </p>
+            <br> <br>
             <p> <i> Tuesday:</i> 10:30am - 11:30am & 12:15pm - 2:30pm </p>
         </footer>
     </body>
