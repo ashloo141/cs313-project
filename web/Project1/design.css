@@ -20,7 +20,7 @@ div {
 
 #pics {
     text-align: left;
-    width: 300px;
+    width: 350px;
     float: left;
     margin-left: 60px;
 }
@@ -41,7 +41,7 @@ div {
     text-align: center;
     margin: 100px auto;
     padding-top: 20px;
-    width: 1200px;
+    /* width: 1200px; */
     height: auto;
     background-color: azure;
     border-radius: 25px;
