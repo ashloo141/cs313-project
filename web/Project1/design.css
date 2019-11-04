@@ -41,10 +41,9 @@ div {
     text-align: left;
     /* width: 500px; */
     /* float: left; */
-    font-size: 20%;
     margin: 5% 5% 2% 5%;
     justify-content: center;
-    /* flex-wrap:wrap; */
+    flex-wrap:wrap;
 }
 
 /* form label {
