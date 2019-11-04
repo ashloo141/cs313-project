@@ -31,7 +31,7 @@ div {
     /* width: 400px; */
     /* float: left; */
     /* margin: 5% 5% 5% 5%; */
-    /* justify-content: space-around; */
+    justify-content: center;
 }
 
 #menu {
@@ -39,7 +39,7 @@ div {
     /* width: 500px; */
     /* float: left; */
     /* margin-left: 5% 5% 5% 5%; */
-    /* justify-content: space-around; */
+    justify-content: center;
 }
 
 /* form label {
@@ -47,7 +47,7 @@ div {
 } */
 
 .container {
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     margin: 0px 5% 5% 5%;
     padding-top: 20px;
