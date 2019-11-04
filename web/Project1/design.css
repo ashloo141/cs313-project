@@ -27,6 +27,7 @@ div {
 }
 
 #pics {
+    display: flex;
     text-align: left;
     /* width: 400px; */
     /* float: left; */
@@ -35,6 +36,7 @@ div {
 }
 
 #menu {
+    display: flex;
     text-align: left;
     /* width: 500px; */
     /* float: left; */
@@ -47,6 +49,7 @@ div {
 } */
 
 .container {
+    display: flex;
     justify-content: space-around;
     text-align: center;
     margin: 0px 5% 5% 5%;
