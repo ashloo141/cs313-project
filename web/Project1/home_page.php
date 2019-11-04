@@ -12,27 +12,40 @@
 
     <body>
         <header>
-            <h1> Smith's Toasties</h1>
+            <h1> <a class =inv_link href= "home_page.php"> Smith's Toasties </a> </h1>
             <p> Fresh. Fast. Freaking Good. </p>
             <p> IBC </p>
         </header>
 
         <br>
         <div class = container>
-            <h3> Menu </h3>
-            <form action = "home_page.php" id="menu" method=POST>
-            <?php 
-                foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items;') as $row) {
-                    $food = $row['item_name'];
-                    $info = $row['item_info'];
-                    $price = $row['item_price'];
+            <div id="pics">
+                <img src="menu.jpg" alt="Menu">
+                <img src="all_stack.jpg" alt="Paninis">
+                <img src="all_zoom.jpg" alt="Paninis">
+                <img src="all_side.jpg" alt="Paninis">
+                <img src="nutella.jpg" alt="Paninis">
+                <img src="smore1.jpg" alt="Paninis">
+                <img src="smore_side.jpg" alt="Paninis">
+                <img src="smore2.jpg" alt="Paninis">
+            </div>
 
-                    echo "<input type='checkbox' name='$food' value='$food'><b>$food</b>: $$price - $info";
-                    echo "<br/>";
-                    echo "<br/>";
-                }
-            ?>
-            </form>
+            <div id="menu">
+                <h3> Menu </h3>
+                <form action = "home_page.php" method=POST>
+                <?php 
+                    foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items;') as $row) {
+                        $food = $row['item_name'];
+                        $info = $row['item_info'];
+                        $price = $row['item_price'];
+
+                        echo "<input type='checkbox' name='$food' value='$food'><b>$food</b>: $$price - $info";
+                        echo "<br/>";
+                        echo "<br/>";
+                    }
+                ?>
+                </form>
+            </div>
             
             <a href="login.php"> <button> Checkout as User </button> </a>
             <a href="guest.php"> <button> Checkout as Guest </button> </a>
