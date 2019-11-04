@@ -20,18 +20,19 @@
         <br>
         <div class = container>
             <div id="pics">
-                <img src="pics/menu.jpg" width="100px" alt="Menu">
-                <img src="pics/all_stack.jpg" width="100px" alt="Paninis">
-                <img src="pics/all_zoom.jpg" width="100px" alt="Paninis">
-                <img src="pics/all_side.jpg" width="100px" alt="Paninis">
-                <img src="pics/nutella.jpg" width="100px" alt="Paninis">
-                <img src="pics/smore1.jpg" width="100px" alt="Paninis">
-                <img src="pics/smore_side.jpg" width="100px" alt="Paninis">
-                <img src="pics/smore2.jpg" width="100px" alt="Paninis">
+                <img src="pics/menu.jpg" width="150px" alt="Menu">
+                <img src="pics/all_stack.jpg" width="150px" alt="Paninis">
+                <img src="pics/all_zoom.jpg" width="150px" alt="Paninis">
+                <img src="pics/all_side.jpg" width="150px" alt="Paninis">
+                <img src="pics/nutella.jpg" width="150px" alt="Paninis">
+                <img src="pics/smore1.jpg" width="150px" alt="Paninis">
+                <img src="pics/smore_side.jpg" width="150px" alt="Paninis">
+                <img src="pics/smore2.jpg" width="150px" alt="Paninis">
             </div>
-
+            
+            <h3> Menu </h3>
+            
             <div id="menu">
-                <h3> Menu </h3>
                 <form action = "home_page.php" method=POST>
                 <?php 
                     foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items;') as $row) {
@@ -39,7 +40,8 @@
                         $info = $row['item_info'];
                         $price = $row['item_price'];
 
-                        echo "<input type='checkbox' name='$food' value='$food'><b>$food</b>: $$price - $info";
+                        echo "<input type='checkbox' name='$food' value='$food'><b>$food</b>: $$price </br>";
+                        echo " - $info";
                         echo "<br/>";
                         echo "<br/>";
                     }
