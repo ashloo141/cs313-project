@@ -17,7 +17,6 @@
             <p> IBC </p>
         </header>
 
-        <br>
         <div class = container>
             <div id="pics">
                 <img src="pics/menu.jpg" width="150px" alt="Menu">
