@@ -20,14 +20,14 @@ div {
 
 #pics {
     text-align: left;
-    width: 400px;
+    /* width: 400px; */
     /* float: left; */
     margin-left: 60px;
 }
 
 #menu {
     text-align: left;
-    width: 500px;
+    /* width: 500px; */
     /* float: left; */
     margin-left: 40px;
 }
@@ -41,7 +41,7 @@ div {
     text-align: center;
     margin: 50px auto;
     padding-top: 20px;
-    /* width: 1000px; */
+    width: 1000px;
     height: auto;
     background-color: azure;
     border-radius: 25px;
