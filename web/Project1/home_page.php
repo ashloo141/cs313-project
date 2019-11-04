@@ -19,15 +19,6 @@
 
         <div class = container>
             <h3> Menu </h3>
-            <div id="pics">
-                <img src="pics/menu.jpg" width="150px" alt="Menu">
-                <img src="pics/all_stack.jpg" width="150px" alt="Paninis">
-                <img src="pics/all_zoom.jpg" width="150px" alt="Paninis">
-                <img src="pics/nutella.jpg" width="150px" alt="Paninis">
-                <img src="pics/smore_side.jpg" width="150px" alt="Paninis">
-                <img src="pics/smore1.jpg" width="150px" alt="Paninis">
-            </div>
-
             <div id="menu">
                 <form action = "home_page.php" method=POST>
                 <?php 
@@ -44,7 +35,16 @@
                 </form>
             </div>
 
-            <div style="clear:both;"> </div> <br>
+            <div id="pics">
+                <img src="pics/menu.jpg" width="150px" alt="Menu">
+                <img src="pics/all_stack.jpg" width="150px" alt="Paninis">
+                <img src="pics/all_zoom.jpg" width="150px" alt="Paninis">
+                <img src="pics/nutella.jpg" width="150px" alt="Paninis">
+                <img src="pics/smore_side.jpg" width="150px" alt="Paninis">
+                <img src="pics/smore1.jpg" width="150px" alt="Paninis">
+            </div>
+
+            <!-- <div style="clear:both;"> </div> <br> -->
             <a href="login.php"> <button> Checkout as User </button> </a>
             <a href="guest.php"> <button> Checkout as Guest </button> </a>
             <br> <br>
