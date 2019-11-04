@@ -20,14 +20,14 @@
         <br>
         <div class = container>
             <div id="pics">
-                <img src="menu.jpg" alt="Menu">
-                <img src="all_stack.jpg" alt="Paninis">
-                <img src="all_zoom.jpg" alt="Paninis">
-                <img src="all_side.jpg" alt="Paninis">
-                <img src="nutella.jpg" alt="Paninis">
-                <img src="smore1.jpg" alt="Paninis">
-                <img src="smore_side.jpg" alt="Paninis">
-                <img src="smore2.jpg" alt="Paninis">
+                <img src="pics/menu.jpg" alt="Menu">
+                <img src="pics/all_stack.jpg" alt="Paninis">
+                <img src="pics/all_zoom.jpg" alt="Paninis">
+                <img src="pics/all_side.jpg" alt="Paninis">
+                <img src="pics/nutella.jpg" alt="Paninis">
+                <img src="pics/smore1.jpg" alt="Paninis">
+                <img src="pics/smore_side.jpg" alt="Paninis">
+                <img src="pics/smore2.jpg" alt="Paninis">
             </div>
 
             <div id="menu">
