@@ -41,7 +41,7 @@ div {
     text-align: center;
     margin: 50px auto;
     padding-top: 20px;
-    /* width: 1000px; */
+    width: auto;
     height: auto;
     background-color: azure;
     border-radius: 25px;
