@@ -116,8 +116,12 @@
         <footer>
             <hr>
             <b> Open Times:</b>
-            <p style="margin-left: 5%;"> <i> M-F except Tuesday:</i> 11am - 2pm </p>
-            <p style="margin-left: 5%;"> <i> Tuesday:</i> 10:30am - 11:30am & 12:15pm - 2:30pm </p>
+            <ul> 
+                <li style="margin-left: 5%;"> <i> M-F except Tuesday:</i></li> 
+                    <ul> <li> 11am - 2pm </li> </ul>
+                <li style="margin-left: 5%;"> <i> Tuesday:</i> </li>
+                    <ul> <li> 10:30am - 11:30am & 12:15pm - 2:30pm </li> </ul>
+            </ul>
         </footer>
     </body>
 </html>
