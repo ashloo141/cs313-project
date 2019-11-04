@@ -20,16 +20,16 @@ div {
 
 #pics {
     text-align: left;
-    width: 350px;
+    width: 400px;
     float: left;
     margin-left: 60px;
 }
 
 #menu {
     text-align: left;
-    width: 600px;
+    width: 500px;
     float: left;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 /* form label {
@@ -41,7 +41,7 @@ div {
     text-align: center;
     margin: 100px auto;
     padding-top: 20px;
-    /* width: 1200px; */
+    width: 1000px;
     height: auto;
     background-color: azure;
     border-radius: 25px;
