@@ -30,14 +30,16 @@ div {
     text-align: left;
     /* width: 400px; */
     /* float: left; */
-    margin-left: 60px;
+    margin: 5%;
+    justify-content: center;
 }
 
 #menu {
     text-align: left;
     /* width: 500px; */
     /* float: left; */
-    margin-left: 40px;
+    margin-left: 5%;
+    justify-content: center;
 }
 
 /* form label {
