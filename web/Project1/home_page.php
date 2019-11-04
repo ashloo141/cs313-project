@@ -18,6 +18,7 @@
         </header>
 
         <div class = container>
+            <h3> Menu </h3>
             <div id="pics">
                 <img src="pics/menu.jpg" width="150px" alt="Menu">
                 <img src="pics/all_stack.jpg" width="150px" alt="Paninis">
@@ -28,9 +29,7 @@
                 <img src="pics/smore_side.jpg" width="150px" alt="Paninis">
                 <img src="pics/smore2.jpg" width="150px" alt="Paninis">
             </div>
-            
-            <h3> Menu </h3>
-            
+
             <div id="menu">
                 <form action = "home_page.php" method=POST>
                 <?php 
