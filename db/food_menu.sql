@@ -1,6 +1,6 @@
 -- heroku psql
 -- \i db/food_menu.sql
-DROP TABLE IF EXISTS food_items;
+-- DROP TABLE IF EXISTS food_items;
 
 ------------------------------------------------
 -- Insert Food Items
