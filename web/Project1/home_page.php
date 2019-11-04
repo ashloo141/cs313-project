@@ -23,11 +23,9 @@
                 <img src="pics/menu.jpg" width="150px" alt="Menu">
                 <img src="pics/all_stack.jpg" width="150px" alt="Paninis">
                 <img src="pics/all_zoom.jpg" width="150px" alt="Paninis">
-                <img src="pics/all_side.jpg" width="150px" alt="Paninis">
+                <img src="pics/nutella.jpg" width="150px" alt="Paninis">
                 <img src="pics/smore_side.jpg" width="150px" alt="Paninis">
                 <img src="pics/smore1.jpg" width="150px" alt="Paninis">
-                <img src="pics/nutella.jpg" width="150px" alt="Paninis">
-                <!-- <img src="pics/smore2.jpg" width="150px" alt="Paninis"> -->
             </div>
 
             <div id="menu">
