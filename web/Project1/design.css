@@ -27,21 +27,23 @@ div {
 }
 
 #pics {
-    /* display: flex; */
+    display: flex;
     text-align: left;
     /* width: 400px; */
     /* float: left; */
     margin: 5% 5% 3% 5%;
-    /* justify-content: center; */
+    justify-content: center;
+    flex-wrap:wrap;
 }
 
 #menu {
-    /* display: flex; */
+    display: flex;
     text-align: left;
     /* width: 500px; */
     /* float: left; */
     margin-left: 5% 5% 2% 5%;
-    /* justify-content: center; */
+    justify-content: center;
+    /* flex-wrap:wrap; */
 }
 
 /* form label {
