@@ -36,16 +36,15 @@
                         $info = $row['item_info'];
                         $price = $row['item_price'];
 
-                        echo "<input type='checkbox' name='$food' value='$food'><b>$food</b>: $$price </br>";
+                        echo "<input type='checkbox' name='$food' value='$food'><b>$food</b>: $$price <br>";
                         echo " - $info";
-                        echo "<br/>";
-                        echo "<br/>";
+                        echo "<br> <br>";
                     }
                 ?>
                 </form>
             </div>
 
-            <div style="clear:both;"> </div>
+            <div style="clear:both;"> </div> <br>
             <a href="login.php"> <button> Checkout as User </button> </a>
             <a href="guest.php"> <button> Checkout as Guest </button> </a>
             <br> <br>
