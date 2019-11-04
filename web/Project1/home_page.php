@@ -46,7 +46,8 @@
                 ?>
                 </form>
             </div>
-            
+
+            <div style="clear:both;"> </div>
             <a href="login.php"> <button> Checkout as User </button> </a>
             <a href="guest.php"> <button> Checkout as Guest </button> </a>
             <br> <br>
