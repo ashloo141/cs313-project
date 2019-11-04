@@ -40,6 +40,8 @@
                 <img src="pics/nutella.jpg" width="150px" alt="Paninis">
                 <img src="pics/all_stack.jpg" width="150px" alt="Paninis">
                 <img src="pics/smore_side.jpg" width="150px" alt="Paninis">
+                <img src="pics/soup1.jpg" width="150px" alt="Soup">
+                <img src="pics/soup2_side.jpg" width="150px" alt="Soup">
             </div>
 
             <!-- <div style="clear:both;"> </div> <br> -->
