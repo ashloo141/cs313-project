@@ -115,7 +115,7 @@
         <script async src="//www.instagram.com/embed.js"></script>
         <footer>
             <b> Open Times:</b>
-            <p> M-F except Tuesday: 11am - 2pm </p>
+            <p> M-F except Tuesday: 11am - 2pm </p> <br>
             <p> Tuesday: 10:30am - 11:30am & 12:15pm - 2:30pm </p>
         </footer>
     </body>
