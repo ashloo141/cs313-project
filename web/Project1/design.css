@@ -21,14 +21,14 @@ div {
 #pics {
     text-align: left;
     width: 400px;
-    float: left;
+    /* float: left; */
     margin-left: 60px;
 }
 
 #menu {
     text-align: left;
     width: 500px;
-    float: left;
+    /* float: left; */
     margin-left: 40px;
 }
 
