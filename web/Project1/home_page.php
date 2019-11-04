@@ -12,7 +12,7 @@
 
     <body>
         <header>
-            <h1> <a class =inv_link href= "home_page.php"> Smith's Toasties </a> </h1>
+            <h1> <a class =inv_link href= "home_page.php"><img src="pics/icon.jpg" width="150px" alt="logo"> </a> </h1>
             <p> Fresh. Fast. Freaking Good. </p>
             <p> IBC </p>
         </header>
