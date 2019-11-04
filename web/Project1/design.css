@@ -10,13 +10,13 @@ body {
     color: black;
 }
 
-head {
+header {
     color: black;
-    margin: 20px auto;
+    /* margin: 10px auto; */
 }
 
 h1{
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 
