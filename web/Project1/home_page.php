@@ -25,7 +25,6 @@
                 <img src="pics/soup1.jpg" width="150px" alt="Soup">
                 <img src="pics/soup2.jpg" width="150px" alt="Soup">
             </div>
-            <br>
 
             <div id="menu">
                 <form action = "home_page.php" method=POST>
