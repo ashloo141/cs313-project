@@ -22,14 +22,14 @@ div {
     text-align: left;
     width: 300px;
     float: left;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 #menu {
     text-align: left;
     width: 600px;
     float: left;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 /* form label {
@@ -41,7 +41,7 @@ div {
     text-align: center;
     margin: 100px auto;
     padding-top: 20px;
-    width: 900px;
+    width: 1200px;
     height: auto;
     background-color: azure;
     border-radius: 25px;
