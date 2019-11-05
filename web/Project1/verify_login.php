@@ -6,7 +6,7 @@
     try {
         $u_name = $_POST["username"];
         $pass = password_hash($_POST["password"], PASSWORD_DEFAULT);
-        $db->query("SELECT user_type FROM users u WHERE u.passwrd = '$pass' AND u.username = '$u_name';") as $row;
+        $db->query("SELECT username FROM users u WHERE u.passwrd = '$pass' AND u.username = '$u_name';") as $row;
         
         if ($db->query($sql) == TRUE) {
             // User Created
