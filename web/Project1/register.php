@@ -15,7 +15,7 @@
             <h1> <a class =inv_link href= "home_page.php"><img src="pics/logo.png" width="400px" alt="logo"> </a> </h1>
         </header>
     
-    <p> Already have an account? <a href="account.php"> Sign in </a> </p>
+    <p> Already have an account? <a href="login.php"> Sign in </a> </p>
     
     <form action = "create_user.php" class=container method=POST>
         
