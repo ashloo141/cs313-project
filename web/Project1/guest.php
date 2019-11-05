@@ -22,7 +22,7 @@
 
     <?php 
         $total = 0.00;
-        $order = $_POST[$food];
+        $order = $_POST['$food'];
         echo "Items in Cart: " . count($_SESSION["order"]) . "<br><br>";
 
         // foreach ($_SESSION["order"] as $item) {
