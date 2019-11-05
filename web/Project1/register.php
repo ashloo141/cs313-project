@@ -21,17 +21,17 @@
         
         First name:
         <br/>
-        <input type = "text" name = "first" value = "first">
+        <input type= "text" name= "first" placeholder= "first">
         <br/>
         
         Last name:
         <br/>
-        <input type = "text" name = "last" value = "last">
+        <input type= "text" name= "last" placeholder= "last">
         <br/>
         
         Phone Number:
         <br/>
-        <input type = "text" name = "phone" value = "phone">
+        <input type= "text" name= "phone" placeholder= "phone">
         <br/>
         
         <label for='username' >Username:</label> <br/>
