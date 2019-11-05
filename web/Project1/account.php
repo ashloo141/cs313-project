@@ -21,6 +21,8 @@
             <h1> <a class =inv_link href= "home_page.php"><img src="pics/logo.png" width="400px" alt="logo"> </a> </h1>
         </header>
     
+        <a href="login.php"> Go to checkout. </a>
+
     <br> 
     <div class = container>
         <h2> Account Settings </h2>
