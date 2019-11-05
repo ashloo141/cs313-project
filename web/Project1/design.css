@@ -69,9 +69,13 @@ blockquote{
     margin: auto;
 }
 
+.foot {
+    margin-left: 10%;
+}
+
 footer {
     display: flex;
     justify-content: center;
-    flex-direction: column;  
+    flex-direction: column; 
     text-align: left;
 }
