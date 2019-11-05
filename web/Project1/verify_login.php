@@ -10,6 +10,7 @@
         
         if ($db->query($sql) == TRUE) {
             // User Created
+            _SESSION["username"] = $u_name;
             header("Location: account.php"); 
             exit();
         } 
