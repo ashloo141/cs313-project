@@ -66,8 +66,10 @@ div {
 
 blockquote{
     display: flex;
-    float: center;
-    /* align-content: center; */
+    justify-content: center;
+    /* float: center; */
+    align-content: center;
+    text-align: center;
     margin: auto;
 }
 
