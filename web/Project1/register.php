@@ -17,26 +17,34 @@
     
     <p> Already have an account? <a href="account.php"> Sign in </a> </p>
     
-    <form action = "checkout.php" class=container method=POST>
+    <form action = "create_user.php" class=container method=POST>
         
         First name:
-        <br>
+        <br/>
         <input type = "text" name = "first" value = "">
-        <br>
+        <br/>
         
         Last name:
-        <br>
+        <br/>
         <input type = "text" name = "last" value = "">
-        <br>
+        <br/>
         
         Phone Number:
-        <br>
+        <br/>
         <input type = "text" name = "phone" value = "">
-        <br>
+        <br/>
         
-        <br>
+        <label for='username' >Username:</label> <br/>
+        <input type='text' name='username' id='username'  maxlength="20" />
+        <br/>
+
+        <label for='password' >Password:</label> <br/>
+        <input type='password' name='password' id='password' maxlength="30" />
+        <br/>       
+        
+        <br/>
         <button type = "submit" value = "Submit" > Next </button>
-        <br>
+        <br/>
         
         <br>
         
