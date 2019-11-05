@@ -22,21 +22,21 @@
 
     <?php 
         $total = 0.00;
-
+        $order = $_POST[$food];
         echo "Items in Cart: " . count($_SESSION["order"]) . "<br><br>";
 
-        foreach ($_SESSION["order"] as $item) {
+        // foreach ($_SESSION["order"] as $item) {
             
-            foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items WHERE item_name = '$item';') as $row) {
+            foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items WHERE item_name = '$order';') as $row) {
                 $food = $row['item_name'];
                 $info = $row['item_info'];
                 $price = $row['item_price'];
             }
             echo "<div id='" . $food . "' style='text-align:left; margin-left: 300px;' > <button type='submit'> Remove </button> " . $food . ": $". $price ." </div> <br>";
             $total += $price;
-        }
+        // }
 
-        echo "Total: $" . $total . ".00 <br><br>";
+        echo "Total: $" . $total . "0 <br><br>";
     ?>
 
     <form action = "result.php" method=POST>
