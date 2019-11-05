@@ -1,4 +1,7 @@
 <?php
+
+    session_start();
+
 try {
     $dbUrl = getenv('DATABASE_URL');
     $dbOpts = parse_url($dbUrl);

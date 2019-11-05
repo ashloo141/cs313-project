@@ -1,4 +1,5 @@
-<?php require '../../db/db-connect.php'; ?>
+<?php require '../../db/db-connect.php';
+      session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">   
 
