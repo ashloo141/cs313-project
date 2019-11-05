@@ -118,6 +118,7 @@
         </blockquote> 
 
         <script async src="//www.instagram.com/embed.js"></script>
+        <div style="clear:both;"> </div> <br>
         
         <hr>
         <footer>
