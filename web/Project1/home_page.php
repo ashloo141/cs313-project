@@ -121,7 +121,8 @@
                 <li style="margin-left: 5%;"> <i> M-F except Tuesday:</i></li> 
                     <div class=foot> 11am - 2pm </div>
                 <li style="margin-left: 5%;"> <i> Tuesday:</i> </li>
-                    <div class=foot> 10:30am - 11:30am & 12:15pm - 2:30pm </div>
+                    <div class=foot> 10:30am - 11:30am </div>
+                    <div class=foot> 12:15pm - 2:30pm </div>
             </ul>
         </footer>
     </body>
