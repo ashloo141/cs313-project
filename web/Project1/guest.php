@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">   
 
-<head>
+    <head>
         <meta charset="UTF-8">
         <title> Toasties </title>
         <link rel ="icon" href ="pics/icon.png">
