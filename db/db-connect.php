@@ -11,7 +11,9 @@
         $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $_SESSION['db'] = $db;
-        $_SESSION['order'] = $order;
+        // $_SESSION['order'] = $order;
+
+        if (!$_SESSION["order"]) { $_SESSION['order'] = array();}
         
 
     } catch (PDOException $ex) {
