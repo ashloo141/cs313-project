@@ -1,7 +1,6 @@
   
 <?php 
     require '../../db/db-connect.php';
-    session.start();
     
     try {
         $u_name = $_POST["username"];
