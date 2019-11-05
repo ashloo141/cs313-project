@@ -1,5 +1,5 @@
 <?php
-    require 'dbConnect.php';
+    require '../../db/db-connect.php';
     
     try {
         $username = $_GET["username"];
