@@ -15,13 +15,13 @@
         } 
         else {
             // User Not Created
-            header("Location: signup.php"); 
+            header("Location: login.php"); 
             exit();
         }
     }
     catch (Exception $e) {
         // Error
-        header("Location: signup.php"); 
+        header("Location: login.php"); 
         exit();
     }
 ?>
