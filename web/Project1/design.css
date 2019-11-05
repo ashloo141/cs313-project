@@ -78,5 +78,6 @@ footer {
     /* justify-content: center; */
     /* flex-wrap: wrap; */
     /* flex-direction: column;  */
+    vertical-align: middle;
     text-align: left;
 }

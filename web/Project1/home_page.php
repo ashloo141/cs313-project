@@ -119,10 +119,10 @@
             <b style="margin-left: 2%;"> Open Times:</b>
             <ul> 
                 <li style="margin-left: 5%;"> <i> MWTF: </i> 
-                    <li style="margin-left: 10%;"> 11am - 2pm </li></li>
+                    <li style="margin-left: 15%;"> 11am - 2pm </li></li>
                 <li style="margin-left: 5%;"> <i> Tuesday: </i> 
-                    <li style="margin-left: 10%;"> 10:30am - 11:30am </li>
-                    <li style="margin-left: 10%;"> 12:15pm - 2:30pm </li></li>
+                    <li style="margin-left: 15%;"> 10:30am - 11:30am </li>
+                    <li style="margin-left: 15%;"> 12:15pm - 2:30pm </li></li>
             </ul>
         </footer>
     </body>
