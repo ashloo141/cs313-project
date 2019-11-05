@@ -20,7 +20,7 @@
     <br> 
     <div class = container>
 
-    <?php echo "Items in Cart: " . count($_SESSION["cart"]) . "<br><br>"; ?>
+    <?php echo "Items in Cart: " . count($_SESSION['order']) . "<br><br>"; ?>
 
     <form action = "result.php" method=POST>
         
