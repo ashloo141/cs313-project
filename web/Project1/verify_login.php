@@ -10,7 +10,7 @@
         
         if ($db->query($sql) == TRUE) {
             // User Created
-            header("Location: welcome.php"); 
+            header("Location: account.php"); 
             exit();
         } 
         else {
