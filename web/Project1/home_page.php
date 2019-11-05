@@ -118,9 +118,9 @@
         <footer>
             <b style="margin-left: 2%;"> Open Times:</b>
             <ul> 
-                <li style="margin-left: 5%;"> <i> M-F except Tuesday:</i></li> 
-                    <div class=foot> 11am - 2pm </div>
-                <li style="margin-left: 5%;"> <i> Tuesday:</i> </li>
+                <li style="margin-left: 5%;"> <i> MWTF: </i> 
+                    <div class=foot> 11am - 2pm </div></li>
+                <li style="margin-left: 5%;"> <i> Tuesday: </i> </li>
                     <div class=foot> 10:30am - 11:30am </div>
                     <div class=foot> 12:15pm - 2:30pm </div>
             </ul>
