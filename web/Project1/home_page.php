@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <title> Toasties </title>
-        <link rel ="icon" href ="pics/logo.png" width="max-content">
+        <link rel ="icon" href ="pics/icon.png">
         <link rel ="stylesheet" type ="text/css" href ="design.css">
         <meta name ="viewport" content ="width=device-width, initial-scale=1, maximum-scale=1">
     </head>
