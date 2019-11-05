@@ -27,9 +27,8 @@
 
         // foreach ($_SESSION["order"] as $item) {
             
-            foreach ($db->query('SELECT item_name, item_price, item_info FROM food_items WHERE item_name = '$order';') as $row) {
+            foreach ($db->query('SELECT item_name, item_price FROM food_items WHERE item_name = '$order';') as $row) {
                 $food = $row['item_name'];
-                $info = $row['item_info'];
                 $price = $row['item_price'];
             }
             echo "<div id='" . $food . "' style='text-align:left; margin-left: 300px;' > <button type='submit'> Remove </button> " . $food . ": $". $price ." </div> <br>";

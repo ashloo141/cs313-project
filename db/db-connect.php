@@ -14,7 +14,11 @@
         // $_SESSION['order'] = $order;
 
         if (!$_SESSION["order"]) { $_SESSION['order'] = array();}
-        
+        foreach ($_SESSION["order"] as $key => $val) {
+            if ($key === "" || !$key) {
+                unset($_SESSION["order"][$key]);
+            }
+        }
 
     } catch (PDOException $ex) {
         echo 'Error!: ' . $ex->getMessage();
