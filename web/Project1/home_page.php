@@ -20,7 +20,7 @@
             <div id="pics">
                 <img src="pics/all_zoom.jpg" width="30%" height="20%" alt="Paninis">
                 <img src="pics/nutella.jpg" width="30%" height="20%" alt="Paninis">
-                <img src="pics/all_stack.jpg" width="30%" height="30%" alt="Paninis">
+                <img src="pics/all_stack.jpg" width="30%" height="50%" alt="Paninis">
                 <img src="pics/smore_side.jpg" width="30%" height="20%" alt="Paninis">
                 <img src="pics/soup1.jpg" width="30%" height="20%" alt="Soup">
                 <img src="pics/soup2.jpg" width="30%" height="20%" alt="Soup">
