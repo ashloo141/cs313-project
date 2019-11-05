@@ -65,7 +65,9 @@ div {
 }
 
 blockquote{
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
     margin: auto;
 }
 
