@@ -116,7 +116,7 @@
         
         <hr>
         <footer>
-            <b> Open Times:</b>
+            <b style="margin-left: 2%;"> Open Times:</b>
             <ul> 
                 <li style="margin-left: 5%;"> <i> M-F except Tuesday:</i></li> 
                     <div class=foot> 11am - 2pm </div>
