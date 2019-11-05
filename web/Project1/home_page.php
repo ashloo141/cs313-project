@@ -38,6 +38,10 @@
                         echo "<input type='checkbox' name='$food' value='$food'><b>$food</b>: $$price <br>";
                         echo " - $info";
                         echo "<br> <br>";
+                        
+                        if(!empty($_POST[$food])) {
+                            _SESSION['order'] += $_POST[$food];
+                        }
                     }
                 ?>
                 </form>
