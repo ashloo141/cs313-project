@@ -40,7 +40,7 @@
                         echo "<br> <br>";
                         
                         if(!empty($_POST[$food])) {
-                            _SESSION['order'] += $_POST[$food];
+                            $_SESSION['order'] += $_POST[$food];
                         }
                     }
                 ?>

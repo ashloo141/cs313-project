@@ -11,7 +11,7 @@
         $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $_SESSION['db'] = $db;
-
+        $_SESSION['order'] = $order;
         
 
     } catch (PDOException $ex) {
