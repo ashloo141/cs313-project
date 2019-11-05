@@ -1,6 +1,6 @@
   
 <?php 
-    require 'dbConnect.php';
+    require '../../db/db-connect.php';
     session.start();
     
     try {

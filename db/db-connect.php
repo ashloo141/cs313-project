@@ -32,17 +32,6 @@ function SanitizeForSQL($str)
 function checkLogin($username,$password)
 {
     $username = $this->SanitizeForSQL($username);
-    // $nresult = query("SELECT * FROM $this->tablename WHERE username = '$username'", $this->connection) or die(mysql_error());
-    // // check for result 
-    // $no_of_rows = mysql_num_rows($nresult);
-    
-    // if ($no_of_rows > 0) 
-    // {
-    //     $nresult = mysql_fetch_array($nresult);
-    //     $salt = $nresult['salt'];
-    //     $encrypted_password = $nresult['password'];
-    //     $hash = $this->checkhashSSHA($salt, $password);  
-    // }
 
     $qry = "SELECT * FROM users WHERE username='$username' and passwrd='$password' ";
     $result = mysql_query($qry,$this->connection);
