@@ -1,5 +1,8 @@
 <?php require '../../db/db-connect.php';
-      session_start(); ?>
+      if (session_status() == PHP_SESSION_NONE) {
+        session_start();
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">   
 
@@ -119,7 +122,7 @@
 
         <script async src="//www.instagram.com/embed.js"></script>
         <div style="clear:both;"> </div> <br>
-        
+
         <hr>
         <footer>
             <b style="margin-left: 2%;"> Open Times:</b>
