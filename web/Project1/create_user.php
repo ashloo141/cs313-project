@@ -13,12 +13,12 @@
                                           '$username', '$password');";
 
         if ($db->query($sql) == TRUE) {
-            // User Created
-            $_SESSION["logged_in"] = 1;
-            $_SESSION["username"] = $username;
+            // // User Created
+            // $_SESSION["logged_in"] = 1;
+            // $_SESSION["username"] = $username;
             
             header("Location: account.php");
-            return;
+            exit();
         } //else {
         //     // User Not Created
         //     header("Location: register.php");

@@ -22,7 +22,8 @@
     }
     catch (Exception $e) {
         // Error
-        header("Location: login.php"); 
+        $message = $e->getMessage();
+        header("Location: login.php?error=$message"); 
         exit();
     }
 ?>
