@@ -1,23 +1,27 @@
-  
 <?php 
     require '../../db/db-connect.php';
     
     try {
-        $u_name = $_POST["username"];
-        $pass = password_hash($_POST["password"], PASSWORD_DEFAULT);
-        $db->query("SELECT username FROM users u WHERE u.passwrd = '$pass' AND u.username = '$u_name';") as $row;
-        
-        if ($db->query($sql) == TRUE) {
-            // User Created
-            $_SESSION["username"] = $u_name;
-            header("Location: account.php"); 
-            exit();
-        } 
-        else {
-            // User Not Created
-            header("Location: login.php"); 
-            exit();
+        $username = $_POST["username"];
+        $password = $_POST["password"];
+
+        $select_sql = "SELECT passwrd, username FROM users WHERE username='$username';";
+
+        foreach ($db->query($select_sql) as $row) {
+
+            // If the password in the database matches the inputted password
+            if (password_verify($password, $row["pass"])) {
+                $_SESSION["username"] = $username;
+                header("Location: account.php");
+                exit();
+            }
+            else {
+                // User Not Created
+                header("Location: login.php"); 
+                exit();
+            }
         }
+
     }
     catch (Exception $e) {
         // Error
