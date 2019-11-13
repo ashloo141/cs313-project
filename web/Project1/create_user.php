@@ -25,7 +25,7 @@
     }
     catch (Exception $e) {
         // Error
-        header("Location: register.php");
+        header("Location: home_page.php");
         exit(); 
     }
 ?>
