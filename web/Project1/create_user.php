@@ -9,9 +9,8 @@
         $username = $_POST["username"];
         $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
 
-        $sql = "INSERT INTO users(first_name, last_name, user_type, phone_number,
-        username, passwrd) VALUES ('$f_name', '$l_name', '1', '$phone', 
-                                          '$username', '$password');";
+        $sql = "INSERT INTO users VALUES ('$f_name', '$l_name', '1', '$phone', 
+                                          '$username', '$password', SYSDATE);";
 
         if ($db->query($sql) == TRUE) {
             // User Created
