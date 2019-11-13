@@ -10,7 +10,7 @@
         $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
 
         $sql = "INSERT INTO users VALUES ('$f_name', '$l_name', '1', '$phone', 
-                                          '$username', '$password', SYSDATE);";
+                                          '$username', '$password');";
 
         if ($db->query($sql) == TRUE) {
             // User Created
