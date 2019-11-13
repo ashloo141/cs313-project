@@ -17,8 +17,8 @@
             // $_SESSION["logged_in"] = 1;
             // $_SESSION["username"] = $username;
             
-            header("Location: account.php");
-            exit();
+            // header("Location: account.php");
+            // exit();
         } //else {
         //     // User Not Created
         //     header("Location: register.php");
