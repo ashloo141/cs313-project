@@ -10,18 +10,19 @@
 
         $sql = "INSERT INTO users VALUES ('$f_name', '$l_name', '1', '$phone', 
                                           '$username', '$password');";
-        if ($db->query($sql) == TRUE) {
-            // User Created
-            $_SESSION["logged_in"] = 1;
-            $_SESSION["username"] = $username;
+
+        // if ($db->query($sql) == TRUE) {
+        //     // User Created
+        //     $_SESSION["logged_in"] = 1;
+        //     $_SESSION["username"] = $username;
             
-            header("Location: account.php");
-            exit();
-        } else {
-            // User Not Created
-            header("Location: register.php");
-            exit();
-        }
+        //     header("Location: account.php");
+        //     exit();
+        // } else {
+        //     // User Not Created
+        //     header("Location: register.php");
+        //     exit();
+        // }
     }
     catch (Exception $e) {
         // Error
