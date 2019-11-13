@@ -8,6 +8,13 @@
         <link rel ="icon" href ="pics/icon.png">
         <link rel ="stylesheet" type ="text/css" href ="design.css">
         <meta name ="viewport" content ="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <?php
+            $error = $_GET["error"];
+            if ($error) {
+                echo "<script>alert('$error');</script>";
+            }
+        ?>
     </head>
 
     <body>

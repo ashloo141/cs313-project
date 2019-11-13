@@ -27,7 +27,8 @@
     }
     catch (Exception $e) {
         // Error
-        header("Location: home_page.php");
+        $message = urlencode($e->getMessage());
+        header("Location: home_page.php?error=$message");
         exit(); 
     }
 ?>
