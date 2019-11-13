@@ -22,7 +22,7 @@
     }
     catch (Exception $e) {
         // Error
-        $message = $e->getMessage();
+        $message = urlencode($e->getMessage());
         header("Location: login.php?error=$message"); 
         exit();
     }
