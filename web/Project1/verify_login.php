@@ -11,17 +11,23 @@
 
             // If the password in the database matches the inputted password
             if (password_verify($password, $row["pass"])) {
+                $_SESSION["id"] = $row["account_id"];
+                $_SESSION["username"] = $username;
+                echo "0";
+            }
+
+            // If the password in the database matches the inputted password
+            if (password_verify($password, $row["pass"])) {
                 $_SESSION["username"] = $username;
                 header("Location: account.php");
-                exit();
             }
             else {
                 // User Not Created
                 header("Location: login.php"); 
-                exit();
             }
         }
 
+        
     }
     catch (Exception $e) {
         // Error
