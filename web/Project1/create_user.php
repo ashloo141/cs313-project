@@ -9,7 +9,7 @@
         $username = $_POST["username"];
         $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
 
-        $sql = "INSERT INTO users VALUES ('$f_name', '$l_name', '1', '$phone', 
+        $sql = "INSERT INTO users VALUES (DEFAULT, '$f_name', '$l_name', 1, '$phone', 
                                           '$username', '$password');";
 
         if ($db->query($sql) == TRUE) {
