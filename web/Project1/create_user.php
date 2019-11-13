@@ -2,6 +2,7 @@
     require '../../db/db-connect.php';
     
     try {
+        // test
         $f_name = $_POST["first"];
         $l_name = $_POST["last"];
         $phone  = $_POST["phone"];
